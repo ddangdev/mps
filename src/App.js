@@ -11,7 +11,7 @@ import ServiceCard from './components/ServiceCard';
 function App() {
   return (
     <div>
-      <Navbar className='display-1'/>
+      <Navbar />
       <div>
         <Main />
       </div>
