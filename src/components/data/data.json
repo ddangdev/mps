@@ -1,0 +1,274 @@
+[
+    {
+        "id": 1,
+        "catagory": "manicure",
+        "name": "classic-manicure",
+        "price": 25,
+        "duration": 30,
+        "additionalcosts": false
+    },
+    {
+        "id": 2,
+        "catagory": "manicure",
+        "name": "spa-manicure",
+        "price": 40,
+        "duration": 45,
+        "additionalcosts": false
+    },
+    {
+        "id": 3,
+        "catagory": "manicure",
+        "name": "delux-manicure",
+        "price": 50,
+        "duration": 60,
+        "additionalcosts": false
+    },
+    {
+        "id": 4,
+        "catagory": "pedicure",
+        "name": "classic-pedicure",
+        "price": 37,
+        "duration": 30,
+        "additionalcosts": false
+    },
+    {
+        "id": 5,
+        "catagory": "pedicure",
+        "name": "spa-pedicure",
+        "price": 52,
+        "duration": 45,
+        "additionalcosts": false
+    },
+    {
+        "id": 6,
+        "catagory": "pedicure",
+        "name": "delux-pedicure",
+        "price": 62,
+        "duration": 60,
+        "additionalcosts": false
+    },
+    {
+        "id": 7,
+        "catagory": "waxing",
+        "name": "brows",
+        "price": 16,
+        "duration": 15,
+        "additionalcosts": true
+    },
+    {
+        "id": 8,
+        "catagory": "waxing",
+        "name": "lip",
+        "price": 11,
+        "duration": 15,
+        "additionalcosts": false
+    },
+    {
+        "id": 9,
+        "catagory": "waxing ",
+        "name": "chin",
+        "price": 11,
+        "duration": 15,
+        "additionalcosts": false
+    },
+    {
+        "id": 10,
+        "catagory": "waxing",
+        "name": "full-face",
+        "price": 57,
+        "duration": 45,
+        "additionalcosts": false
+    },
+    {
+        "id": 11,
+        "catagory": "waxing",
+        "name": "half-face",
+        "price": 37,
+        "duration": 30,
+        "additionalcosts": false
+    },
+    {
+        "id": 12,
+        "catagory": "waxing ",
+        "name": "full-arm",
+        "price": 36,
+        "duration": 30,
+        "additionalcosts": false
+    },
+    {
+        "id": 13,
+        "catagory": "waxing",
+        "name": "half-arm",
+        "price": 21,
+        "duration": 15,
+        "additionalcosts": false
+    },
+    {
+        "id": 14,
+        "catagory": "waxing",
+        "name": "full-leg",
+        "price": 56,
+        "duration": 30,
+        "additionalcosts": false
+    },
+    {
+        "id": 15,
+        "catagory": "waxing ",
+        "name": "half-leg",
+        "price": 36,
+        "duration": 15,
+        "additionalcosts": false
+    },
+    {
+        "id": 16,
+        "catagory": "waxing",
+        "name": "full-body",
+        "price": 145,
+        "duration": 60,
+        "additionalcosts": false
+    },
+    {
+        "id": 17,
+        "catagory": "waxing",
+        "name": "partial-body",
+        "price": 110,
+        "duration": 45,
+        "additionalcosts": false
+    },
+    {
+        "id": 18,
+        "catagory": "waxing",
+        "name": "basic-bikini",
+        "price": 37,
+        "duration": 30,
+        "additionalcosts": false
+    },
+    {
+        "id": 19,
+        "catagory": "waxing ",
+        "name": "female-brazilian",
+        "price": 67,
+        "duration": 30,
+        "additionalcosts": false
+    },
+    {
+        "id": 20,
+        "catagory": "facial",
+        "name": "signature-hydrafacial",
+        "price": 150,
+        "duration": 60,
+        "additionalcosts": false
+    },
+    {
+        "id": 21,
+        "catagory": "facial",
+        "name": "aromatherapy",
+        "price": 85,
+        "duration": 60,
+        "additionalcosts": false
+    },
+    {
+        "id": 22,
+        "catagory": "facial",
+        "name": "pampering-back",
+        "price": 70,
+        "duration": 60,
+        "additionalcosts": false
+    },
+    {
+        "id": 23,
+        "catagory": "lash",
+        "name": "natural",
+        "price": 115,
+        "duration": 60,
+        "additionalcosts": false
+    },
+    {
+        "id": 24,
+        "catagory": "lash",
+        "name": "dive",
+        "price": 165,
+        "duration": 90,
+        "additionalcosts": false
+    },
+    {
+        "id": 25,
+        "catagory": "lash",
+        "name": "retouch-1-week",
+        "price": 45,
+        "duration": 60,
+        "additionalcosts": false
+    },
+    {
+        "id": 26,
+        "catagory": "lash ",
+        "name": "retouch-2-3-week",
+        "price": 65,
+        "duration": 60,
+        "additionalcosts": true
+    },
+    {
+        "id": 27,
+        "catagory": "acrylic",
+        "name": "fullset-solornails",
+        "price": 55,
+        "duration": 90,
+        "additionalcosts": true
+    },
+    {
+        "id": 28,
+        "catagory": "acrylic",
+        "name": "fill-solarnails",
+        "price": 35,
+        "duration": 90,
+        "additionalcosts": true
+    },
+    {
+        "id": 29,
+        "catagory": "acrylic",
+        "name": "fullset-spaw",
+        "price": 80,
+        "duration": 120,
+        "additionalcosts": true
+    },
+    {
+        "id": 30,
+        "catagory": "acrylic",
+        "name": "fill-spaw",
+        "price": 55,
+        "duration": 120,
+        "additionalcosts": true
+    },
+    {
+        "id": 31,
+        "catagory": "acrylic",
+        "name": "fullset-ss",
+        "price": 80,
+        "duration": 120,
+        "additionalcosts": true
+    },
+    {
+        "id": 32,
+        "catagory": "acrylic",
+        "name": "fill-ss",
+        "price": 35,
+        "duration": 120,
+        "additionalcosts": true
+    },
+    {
+        "id": 33,
+        "catagory": "keiki",
+        "name": "manicure",
+        "price": 16,
+        "duration": 30,
+        "additionalcosts": false
+    },
+    {
+        "id": 34,
+        "catagory": "keiki",
+        "name": "pedicure",
+        "price": 27,
+        "duration": 30,
+        "additionalcosts": false
+    }
+]
