@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import ServiceCard from './ServiceCard';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const Home = () => {
   const [service, setService] = useState('');
@@ -13,13 +15,17 @@ const Home = () => {
   })
 
   return(
-    <div>
-      <p className='container display-2'>Welcome to Mani Pedi Spa</p>
+    <div className='container'>
+      <p className='display-2'>Welcome to Mani Pedi Spa</p>
       <div>
-        <ServiceCard service={service} className='display-1'/>
-        <button style={{marginLeft: '50px', marginRight: '50px'}} value='manicure' onClick={handleClick}>Hands</button>
-        <button style={{marginLeft: '50px', marginRight: '50px'}} value='pedicure' onClick={handleClick}>Feet</button>
-        <button style={{marginLeft: '50px', marginRight: '50px'}} value='waxing' onClick={handleClick}>Waxing</button>
+        <div style={{maxHeight: '150px'}}>
+          <ServiceCard selectedService={service} className='display-1'/>
+        </div>
+        <div className='d-flex justify-content-center'>
+          <button style={{marginLeft: '50px', marginRight: '50px'}} value='manicure' onClick={handleClick}>Hands</button>
+          <button style={{marginLeft: '50px', marginRight: '50px'}} value='pedicure' onClick={handleClick}>Feet</button>
+          <button style={{marginLeft: '50px', marginRight: '50px'}} value='waxing' onClick={handleClick}>Waxing</button>
+        </div>
       </div>
     </div>
   )
