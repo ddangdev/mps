@@ -13,6 +13,8 @@ const liStyle = {
   color: 'white',
   backgroundColor: 'blue',
   borderRadius: '10px',
+
+  minWidth: '200px',
   margin: '5px 5px 5px 5px'
 }
 
@@ -26,7 +28,6 @@ const ServiceCard = ({ selectedService }) => (
         <p>
           {`${service.price}`}
         </p>
-
       </li>
     ))}
   </ul>
