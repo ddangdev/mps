@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const menu = require('./data/data')
 
 const liStyle = {
+
   fontFamily: 'font-family: priori-sans, sans-serif',
   fontWeight: '700',
   fontStyle: 'normal',
@@ -15,7 +16,9 @@ const liStyle = {
   borderRadius: '10px',
 
   minWidth: '200px',
-  margin: '5px 5px 5px 5px'
+  margin: '5px 5px 5px 5px',
+  overflowY: 'auto'
+
 }
 
 const ServiceCard = ({ selectedService }) => (

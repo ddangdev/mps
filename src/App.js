@@ -10,7 +10,7 @@ import ServiceCard from './components/ServiceCard';
 
 function App() {
   return (
-    <div>
+    <div style={{backgroundColor: '#FFCBC9'}}>
       <Navbar />
       <div>
         <Main />
